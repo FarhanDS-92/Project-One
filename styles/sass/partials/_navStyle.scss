@@ -2,4 +2,46 @@
 
 nav {
     background-color: $primaryColor;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    .wrapper {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+
+            font-family: $menuFont;
+            font-weight: bold;
+            font-size: 20px;
+
+            line-height: 29px;
+            letter-spacing: 1px;
+
+            a {
+                color: $shadeColor;
+                text-decoration: none;
+            }
+
+            .logo {
+                font-size: 50px;
+                font-family: $mainFont;
+            }
+
+            a:focus , a:hover {
+                transition: ease-in-out .5s;
+                color: $buttonColor;
+            }
+
+            
+        }
+    }
 }
