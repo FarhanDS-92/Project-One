@@ -19,7 +19,7 @@ nav {
             list-style: none;
             display: flex;
             justify-content: center;
-            gap: 40px;
+            gap: 30px;
 
             font-family: $menuFont;
             font-weight: bold;
@@ -39,7 +39,7 @@ nav {
             }
 
             a:focus , a:hover {
-                transition: ease-in-out .5s;
+                transition: ease-in-out .25s;
                 color: $buttonColor;
             }
 

@@ -266,7 +266,7 @@ nav .wrapper .menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 40px;
+  gap: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -282,39 +282,66 @@ nav .wrapper .menu .logo {
   font-family: "Abril Fatface", cursive;
 }
 nav .wrapper .menu a:focus, nav .wrapper .menu a:hover {
-  -webkit-transition: ease-in-out 0.5s;
-  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
   color: #e4a436;
 }
 
 header {
   background-color: #345231;
   width: 100%;
-  height: 75vh;
+  height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
+  padding-right: 20px;
 }
 header .wrapper {
   margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+header .wrapper .text-container {
+  margin-right: 25px;
 }
 header .wrapper .text-container h1 {
   line-height: 92px;
   letter-spacing: 1px;
-  font-size: 80px;
   color: #f6f6f6;
   font-family: "Abril Fatface", cursive;
   font-weight: 400;
+  font-size: 150px;
+  margin-top: -10px;
+}
+header .wrapper .circle-text-container {
+  margin-right: -80px;
+  margin-top: -120px;
+}
+header .wrapper .circle-text-container img {
+  width: 100%;
+}
+header .wrapper .img-container {
+  margin-top: 80px;
+  background-color: white;
+  width: 40%;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+header .wrapper .img-container img {
+  position: relative;
+  width: 100%;
+  top: -25px;
+  left: -25px;
 }
