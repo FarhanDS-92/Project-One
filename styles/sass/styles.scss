@@ -1,5 +1,11 @@
+//Setup and variables
 @use './partials/setup';
 @use './partials/variables' as *;
+
+
+
+// Styling sections
 @use './partials/baseStyle';
 @use './partials/navStyle';
 @use './partials/headerStyle';
+@use './partials/aboutStyle';

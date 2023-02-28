@@ -246,7 +246,7 @@ button {
   text-align: center;
   line-height: 32px;
   letter-spacing: 1px;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px 5px 10px;
 }
 
 nav {
@@ -303,14 +303,14 @@ nav .wrapper .menu a:focus, nav .wrapper .menu a:hover {
 header {
   background-color: #345231;
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 120px;
+  padding-right: 150px;
 }
 header .wrapper {
   margin-top: 80px;
@@ -334,7 +334,7 @@ header .wrapper .text-container h1 {
   color: #f6f6f6;
   font-family: "Abril Fatface", cursive;
   font-weight: 400;
-  font-size: 150px;
+  font-size: 140px;
   margin-top: -10px;
 }
 header .wrapper .circle-text-container {
@@ -345,7 +345,7 @@ header .wrapper .circle-text-container img {
   width: 100%;
 }
 header .wrapper .img-container {
-  margin-top: 80px;
+  margin-top: 50px;
   background-color: white;
   width: 35%;
   position: relative;
@@ -357,4 +357,41 @@ header .wrapper .img-container img {
   width: 100%;
   top: -25px;
   left: -25px;
+}
+
+main .about {
+  width: 100%;
+  height: 50vh;
+  background-color: #f6f6f6;
+}
+main .about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding-top: 90px;
+}
+main .about .wrapper h2 {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1px;
+  color: #1f1f1f;
+  margin: 0 auto;
+}
+main .about .wrapper p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0px;
 }
