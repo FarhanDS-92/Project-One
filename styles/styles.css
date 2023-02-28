@@ -303,7 +303,7 @@ nav .wrapper .menu a:focus, nav .wrapper .menu a:hover {
 header {
   background-color: #345231;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,7 +313,6 @@ header {
   padding-right: 150px;
 }
 header .wrapper {
-  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
