@@ -462,3 +462,70 @@ main .favourite .backColor {
   position: absolute;
   top: 0;
 }
+
+main .bucket-list {
+  position: relative;
+}
+main .bucket-list .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+main .bucket-list .wrapper .text-container {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  bottom: 15px;
+  margin-right: 80px;
+}
+main .bucket-list .wrapper .text-container h3 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  color: #1f1f1f;
+  letter-spacing: 1px;
+  padding-top: 90px;
+  margin: 0 0;
+}
+main .bucket-list .wrapper .text-container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1f1f1f;
+  text-align: left;
+  line-height: 32px;
+  letter-spacing: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: right;
+}
+main .bucket-list .wrapper .img-container {
+  width: 60%;
+}
+main .bucket-list .wrapper .img-container img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: -80px;
+}
+main .bucket-list .backColor {
+  background-color: #345231;
+  width: 52vw;
+  height: 460px;
+  z-index: -1;
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+}
