@@ -47,6 +47,7 @@ main {
             
             .img-container {
                 width: 60%;
+                z-index: 2;
     
                 img {
                     width: 100%;
@@ -60,8 +61,8 @@ main {
         .backColor {
             background-color: $primaryColor;
             width: 52vw;
-            height: 460px;
-            z-index: -1;
+            height: 450px;
+            z-index: 1;
             position: absolute;
             bottom: -100px;
             right: 0;

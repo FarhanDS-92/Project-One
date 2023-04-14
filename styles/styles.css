@@ -513,6 +513,7 @@ main .bucket-list .wrapper .text-container p {
 }
 main .bucket-list .wrapper .img-container {
   width: 60%;
+  z-index: 2;
 }
 main .bucket-list .wrapper .img-container img {
   width: 100%;
@@ -523,9 +524,78 @@ main .bucket-list .wrapper .img-container img {
 main .bucket-list .backColor {
   background-color: #345231;
   width: 52vw;
-  height: 460px;
-  z-index: -1;
+  height: 450px;
+  z-index: 1;
   position: absolute;
   bottom: -100px;
   right: 0;
+}
+
+main .journey {
+  margin-top: 50px;
+  width: 100%;
+  height: 45vh;
+  background-color: #f6f6f6;
+  position: relative;
+}
+main .journey .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding-top: 90px;
+  height: 90%;
+}
+main .journey .wrapper .text-container {
+  height: 100%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 50px;
+  position: relative;
+}
+main .journey .wrapper .text-container h2 {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1px;
+  color: #1f1f1f;
+  text-align: left;
+  margin: 0;
+}
+main .journey .wrapper .text-container p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  text-align: left;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin: 0;
+}
+main .journey .wrapper .img-container {
+  height: 100%;
+  width: 25%;
+  background-color: #709b6b;
+}
+main .journey .wrapper .img-container img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
 }
